@@ -41,16 +41,15 @@ const Index = () => {
           Interactive choropleth map (embedded from Datawrapper):
         </p>
         <div className="embed-container">
-          {/* TODO: Embed Datawrapper iframe here */}
-          <div className="text-center">
-            <div className="neu-button-primary inline-flex items-center gap-2 mb-4">
-              <MapPin className="w-5 h-5" />
-              Map Placeholder
-            </div>
-            <p className="text-muted-foreground text-sm">
-              Datawrapper visualization will appear here
-            </p>
-          </div>
+          <iframe 
+            title="Patent Activity Across U.S. Metropolitan Statistical Areas (2015)" 
+            aria-label="Choropleth map" 
+            src="https://datawrapper.dwcdn.net/jEUyT/1/" 
+            scrolling="no" 
+            frameBorder="0" 
+            style={{ width: '100%', minWidth: '100%', border: 'none' }} 
+            height="803"
+          />
         </div>
       </section>
 
