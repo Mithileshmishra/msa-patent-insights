@@ -117,7 +117,7 @@
 
 @layer components {
   .page-container {
-    @apply max-w-[900px] mx-auto px-6 py-12;
+    @apply max-w-[50%] mx-auto px-6 py-12;
   }
 
   /* Neumorphic card - raised */
